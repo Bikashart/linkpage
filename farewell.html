@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1st year farewell collection</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+   body {
+	font-family: Arial, sans-serif;
+	background-color: #EEE;
+}
+
+#total{
+   background-color: lightgrey;
+}
+.container {
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	background-color: #FFF;
+	box-shadow: 0px 0px 5px #CCC;
+}
+
+h1 {
+	font-size: 36px;
+	color: #333;
+	margin-top: 0;
+}
+
+p {
+	font-size: 18px;
+	color: #666;
+	margin-bottom: 20px;
+}
+
+button {
+	background-color: #4CAF50;
+	color: #FFF;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3E8E41;
+}
+table {
+   border-collapse: collapse;
+   width: 100%;
+}
+
+thead {
+   background-color: #EEE;
+}
+
+th,
+td {
+   border: 1px solid #CCC;
+   padding: 8px;
+   text
+}
+
+
+}
+</style>
+<body>
+	<div class="container">
+		<h1>FAREWELL COLLECTION 1<sup>st</sup> year </h1>
+		<table>
+		   <thead>
+		      <tr>
+		  
+		         <th>NAMES OF STUDENTS </th>
+		         <th>GENDER</th>
+		          <th>AMOUNT</th>
+		      </tr>
+		   </thead>
+		   <tbody>
+		      <tr>
+		         <td class="giv">BIKASH MAHANANDIA </td>
+		           <td>MALE</td>
+		             <td>200/-</td>
+		     </tr>
+		      <tr>
+		         <td>BIKASH SABAR</td>
+		         <td>MALE</td>
+		            <td>200/-</td>
+		      </tr>
+		      <tr>
+		         <td>BINOD SABAR</td>
+		            <td>MALE</td>
+		               <td>  </td>
+		      </tr>
+		      <tr>
+		         <td>CHITRANJAN </td>
+		         <td>MALE</td>
+		            <td>200/-</td>
+		      </tr>
+		      <tr>
+		         <td>DEEPAK PANDIT</td>
+		         <td>MALE</td> 
+		         <td> </td>
+		      </tr>
+		      <tr>
+		         <td>JAYARAM KANDRU</td>
+		         <td>MALE</td>
+		            <td> </td>
+		      </tr>
+		      <tr>
+		         <td>MAHENDRA SABAR</td>
+		         <td> MALE </td>
+		            <td> </td>
+		      </tr>
+		      <tr>
+		         <td>UDIT GARADIA </td>
+		         <td> MALE </td>
+		            <td>200/-</td>
+		      </tr>
+		      <tr>
+		         <td>TARA SATHPATHY</td>
+		         <td> MALE </td>
+		            <td></td>
+		      </tr>
+		      <tr>
+		         <td>RAVI KHAUSHWANT </td>
+		         <td>MALE </td>
+		            <td> </td>
+		      </tr>
+		      <tr>
+		         <td>SITANO SABAR</td>
+		         <td>MALE</td>
+		            <td>200/-</td>
+		      </tr>
+		      <tr>
+		         <td>MONALISA PATRA </td>
+		         <td>FEMALE </td>
+		            <td>200/-</td>
+		      </tr>
+		      <tr>
+		         <td>SUJANIA </td>
+		         <td>FEMALE </td>
+		            <td> 200/-</td>
+		      </tr>
+		      <tr>
+		         <td>SWATI</td>
+		         <td>FEMALE</td>
+		            <td>  </td>
+		      </tr>
+		      <tr>
+		         <td> PRIYANKA </td>
+		         <td>FEMALE</td>
+		            <td>200/-</td>
+		      </tr>
+		      <tr>
+		         <td>JHANSHI</td>
+		         <td>FEMALE</td>
+		            <td>  </td>
+		      </tr>
+		        <tr id="total">
+		           <th>TOTAL</th>
+		           <th>AMOUNT</th>
+		           <th>1600/-</th>
+		        </tr>
+		   </tbody>
+		</table>
+		<br>
+		<button id="print-button">DOWNLOAD PAGE</button>
+	</div>
+	<script src="script.js"></script>
+</body>
+<script>
+   const printButton = document.querySelector('#print-button');
+
+printButton.addEventListener('click', function() {
+	window.print();
+});
+
+</script>
+</html>
